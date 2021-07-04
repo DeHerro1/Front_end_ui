@@ -142,6 +142,9 @@ export default {
 #get_started {
   background: #50b946;
   color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
 @keyframes navShow {
