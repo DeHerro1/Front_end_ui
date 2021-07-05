@@ -50,7 +50,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  width: 100%;
 }
 
 @media (max-width: 400px) {
