@@ -43,6 +43,7 @@ body {
 
 html {
   width: 100%;
+  overflow-x: hidden;
 }
 #app {
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
@@ -50,6 +51,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  width: 100%;
 }
 
 @media (max-width: 400px) {

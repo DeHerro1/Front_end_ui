@@ -62,6 +62,10 @@ export default {};
   text-align: center;
 }
 
+.main_control > p {
+  padding: 0 10px;
+}
+
 .main_text {
   text-align: left;
 }
