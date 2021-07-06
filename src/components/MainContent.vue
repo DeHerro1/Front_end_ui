@@ -62,8 +62,9 @@ export default {};
   text-align: center;
 }
 
-.main_control > p {
-  padding: 0 10px;
+.main_control > p,
+.main_text > p {
+  padding: 0 20px;
 }
 
 .main_text {

@@ -19,7 +19,7 @@ export default {};
 .sub_section {
   background: var(--default_color--);
   color: white;
-  padding: 80px 0;
+  padding: 50px 0;
   width: 100%;
   position: relative;
   z-index: -1;
@@ -32,13 +32,17 @@ export default {};
   align-items: center;
 }
 
+.sub_section_content > p {
+  margin: 0;
+}
+
 .design_right,
 .design_left {
   display: none;
 }
 
 .sub_section_content > h2 {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 @media (min-width: 990px) {
@@ -54,6 +58,11 @@ export default {};
     background: #38326c;
     border-radius: 20px;
     transform: rotate(60deg);
+  }
+
+  .sub_section_content > h2 {
+    font-weight: 800;
+    font-size: 2rem;
   }
 
   .design_left {

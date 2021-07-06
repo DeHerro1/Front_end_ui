@@ -4,7 +4,7 @@
       <slot name="header"></slot>
     </div>
     <div>
-      <h4>{{ title }}</h4>
+      <h3>{{ title }}</h3>
       <p>
         {{ text }}
       </p>

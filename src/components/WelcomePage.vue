@@ -46,10 +46,10 @@ export default {};
 }
 
 .welcome_bg_color {
-  width: 150%;
+  width: 200%;
   position: absolute;
   top: -180px;
-  left: -110px;
+  left: -50%;
   background: #1a1357;
   border-radius: 50%;
   height: 500px;
@@ -84,7 +84,7 @@ export default {};
   width: 30%;
   position: absolute;
   bottom: -100px;
-  right: 120px;
+  right: 80px;
   z-index: -1;
   border-radius: 50%;
   height: 120px;
@@ -117,7 +117,7 @@ export default {};
 }
 
 .laptop {
-  width: 350px;
+  width: 300px;
 }
 
 @media (min-width: 768px) {

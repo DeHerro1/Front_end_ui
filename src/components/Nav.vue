@@ -65,6 +65,7 @@ export default {
   background: #1a1357;
   color: white;
   z-index: 100;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   padding: 10px 0 0;
